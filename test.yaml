@@ -17,11 +17,15 @@ Learning Objective:
   - data
   - DATA
 ---
-# block style document
+# block style
+# each line represents an element
 color:
   - red
   - yellow
   - blue
+
+# flow style: exact same as block before
+color: [red, yellow, blue]
 ---
 - file extension:
   - .yml
