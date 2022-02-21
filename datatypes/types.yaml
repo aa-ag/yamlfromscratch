@@ -9,6 +9,7 @@ float: 0.99
 boolean: true
 boolean: false
 nulls: [null, ~]
+not a number: !!float .nan
 
 # multiline strings, preserving line breaks
 text: |
