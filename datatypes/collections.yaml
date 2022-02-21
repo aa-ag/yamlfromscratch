@@ -47,3 +47,26 @@ b:
 # flow
 a: 1
 b: {c: 2, d: 3}
+
+
+### pairs
+# different from `maps` `pairs` are ordered
+tasks: !!pairs
+ - meeting: standup
+ - meeting: demo
+ - break: lunch
+ - meeting: all-hands
+ - meeting: 1-on-1
+
+ # Dictionaries (`!!omap`)
+ ## nested mapping can contain any assorment of mappings
+ ## and or sequences as values
+fruits: !!omap
+  - Apple:
+    calories: 120
+    fat: 0.2
+    carbs: 35
+  - Banana:
+    calories: 105
+    fat: 0.4
+    carbs: 27
