@@ -1,0 +1,15 @@
+# sequences:
+## denoted by leading dashes
+- Red Bull
+- Mercedes
+- Ferrari
+
+---
+colors: !!seq # ordered sequence
+  - red
+  - orange
+  - yellow
+
+---
+# sequence in flow style
+[red, orange, yellow]ß
