@@ -8,8 +8,9 @@ Learning Objective:
 - 'Using feature and capabilities'
 - "Tools and technologies leveraging YAML"
 - 'Creating and Validating YAML Data'
+# this is a comment
 ---
-- Key: data
+- Key: data # this is also a comment
 - KEY: DATA
 - key: 
   - Data
