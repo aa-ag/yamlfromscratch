@@ -10,6 +10,7 @@ boolean: true
 boolean: false
 nulls: [null, ~]
 not a number: !!float .nan
+time: 2022-01-01T01:00:00:00Z
 
 # multiline strings, preserving line breaks
 text: |
