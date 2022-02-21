@@ -9,3 +9,10 @@ float: 0.99
 boolean: true
 boolean: false
 nulls: [null, ~]
+
+# multiline strings, preserving line breaks
+text: |
+  This is a multiline string
+  where line breaks at the eand of each line
+  should be preserved...
+  in theory...
