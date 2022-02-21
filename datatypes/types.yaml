@@ -13,6 +13,14 @@ nulls: [null, ~]
 # multiline strings, preserving line breaks
 text: |
   This is a multiline string
-  where line breaks at the eand of each line
+  where line breaks at the end of each line
   should be preserved...
+  in theory...
+
+
+# multiline strings, not preserving line breaks
+text: >
+  This is a multiline string
+  where line breaks at the end of each line
+  should NOT be preserved...
   in theory...
