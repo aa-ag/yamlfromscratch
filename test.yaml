@@ -18,7 +18,6 @@ Learning Objective:
   - DATA
 ---
 # block style
-# each line represents an element
 color:
   - red
   - yellow
@@ -26,6 +25,15 @@ color:
 
 # flow style: exact same as block before
 color: [red, yellow, blue]
+
+
+# block style
+# each line represents an element
+name: John
+lastname: Doe
+
+# flow style
+- {name: 'John', lastname: Doe}
 ---
 - file extension:
   - .yml
