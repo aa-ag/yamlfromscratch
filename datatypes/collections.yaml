@@ -70,3 +70,10 @@ fruits: !!omap
     calories: 105
     fat: 0.4
     carbs: 27
+
+# Anchors
+fruits: !!omap
+  - apple:
+    color: &red [255, 0, 0]
+  - straberry:
+    color: *red
