@@ -33,3 +33,17 @@ colors: !!seq # ordered sequence
   - 7
   - 3
   - null
+
+# maps
+color: red
+
+# nested maps
+# block
+a: 1
+b:
+  c: 2
+  d: 3
+
+# flow
+a: 1
+b: {c: 2, d: 3}
