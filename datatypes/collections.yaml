@@ -12,4 +12,13 @@ colors: !!seq # ordered sequence
 
 ---
 # sequence in flow style
-[red, orange, yellow]ß
+[red, orange, yellow]
+
+---
+# sparse sequence
+- ~
+- blue
+- green
+- Null
+- NULL 
+- orange
