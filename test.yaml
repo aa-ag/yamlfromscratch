@@ -17,6 +17,12 @@ Learning Objective:
   - data
   - DATA
 ---
+# block style document
+color:
+  - red
+  - yellow
+  - blue
+---
 - file extension:
   - .yml
   - .yaml
