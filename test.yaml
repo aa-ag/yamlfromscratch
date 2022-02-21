@@ -1,3 +1,4 @@
+---
 Title: Learn YAML from Scratch
 Message: "Welcome to this course"
 Learning Objective:
@@ -7,3 +8,10 @@ Learning Objective:
 - 'Using feature and capabilities'
 - "Tools and technologies leveraging YAML"
 - 'Creating and Validating YAML Data'
+---
+- Key: data
+- KEY: DATA
+- key: 
+  - Data
+  - data
+  - DATA
