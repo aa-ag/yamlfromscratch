@@ -1,0 +1,11 @@
+---
+# variables: keys followed by colon + space
+# examples:
+string: 'Hello'
+string: "hello"
+integer: 0
+integer: -1
+float: 0.99
+boolean: true
+boolean: false
+nulls: [null, ~]
