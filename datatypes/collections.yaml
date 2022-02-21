@@ -22,3 +22,14 @@ colors: !!seq # ordered sequence
 - Null
 - NULL 
 - orange
+
+--- 
+# nested sequence
+- a
+  - 1
+  - 4
+  - 2
+- b
+  - 7
+  - 3
+  - null
